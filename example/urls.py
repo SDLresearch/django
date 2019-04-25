@@ -2,7 +2,6 @@ from django.urls import path
 
 from example.views import index
 
-
 urlpatterns = [
-    path('', index),
+	path('', index, name='post_list'),
 ]
